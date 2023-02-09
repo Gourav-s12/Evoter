@@ -55,6 +55,31 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+## Run this project
+Run `git clone git@github.com:Gourav-s12/Evoter.git'
+
+Run composer install
+
+Run cp .env.example .env or copy .env.example .env
+
+update .env according to your system
+
+Run php artisan key:generate
+
+Run php artisan migrate
+
+Run php artisan db:seed
+
+enter "yes"
+
+Run npm install & npm run dev
+
+Run npm run watch
+
+Run php artisan passport:install
+
+Run php artisan serve
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
