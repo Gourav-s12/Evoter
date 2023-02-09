@@ -1,0 +1,23 @@
+composer create-project --prefer-dist laravel/laravel=8.*.* Evoter
+composer require laravel/ui:*
+php artisan ui vue --auth
+npm install
+npm run dev
+npm run dev
+npm run watch  (ongoing)
+npm install vue-router@3.6.5
+composer require laravel/passport:*
+php artisan migrate
+php artisan passport:install
+
+        Personal access client created successfully.
+        Client ID: 1
+        Client secret: jYHzb1ZJkgdqA3FVVieLfBwMFMmsxtPe7BGqBALs
+        Password grant client created successfully.
+        Client ID: 2
+        Client secret: CsD2y3Ce8ZsrhnMuyQo1T472FcKuGInGXSW7OjWg
+
+(user model, middleware, config auth, authserviceprovider)
+npm install vuex@3
+npm install --save apexcharts
+npm install --save vue-apexcharts
